@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/grey"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/tourismlogo"/>
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my app"
+        android:textSize="44dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/placesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Famous Places"
+        android:textSize="30dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/restaurantsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Famous Restaurants"
+        android:textSize="25dp"
+        android:layout_below="@id/placesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/foodsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Famous Foods"
+        android:textSize="30dp"
+        android:layout_below="@id/restaurantsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"/>
+
+</LinearLayout>
